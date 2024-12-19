@@ -1,0 +1,18 @@
+EventDef {
+    background: $boost;
+    margin: 1;
+    padding: 1;
+}
+
+Select {
+    width: 16;
+}
+
+Button {
+    width: 16;
+}
+
+Input {
+    color: $foreground-muted;
+    
+}

@@ -12,7 +12,9 @@ description = "Tool for time trackign"
 readme = "README.md"
 requires-python = ">=3.0"
 dependencies = [
-    
+    "platformdirs",
+    "textual",
+    "python-dateutil",
 ]
 
 [project.urls]
@@ -21,3 +23,4 @@ Issues = "https://github.com/bpqoc/tim/issues"
 
 [project.scripts]
 tim = "tim.main:main"
+tim-gui = "tim.gui:main"
